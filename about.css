@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+    padding: 0;
+    background: url(image/bus.jpg);
+    background-size: cover;
+    background-position: center;
+  font-family: sans-serif;
+}
+
+.team-section{
+  background:rgba(0,0,0,0.5);
+			color:#fff;
+			text-align: center;
+}
+.inner-width{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  color: #333;
+  overflow: hidden;
+}
+.team-section h1{
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+}
+.pe{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 30px 0;
+  transition: 0.4s;
+}
+.pe:hover{
+  background: #ffffff;
+
+}
+.pe img{
+  width: 120px;
+  height: 120px;
+}
+.p-name{
+  margin: 16px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #3C4849
+}
+.p-des{
+  font-style: italic;
+  color: #35D6EA;
+  font-size: 15px;
+}

@@ -1,0 +1,37 @@
+<?php
+session_start();
+require 'connect.php';
+$error="";
+$e=300;
+$b=9;
+for($i=321;$i<=560;$i++)
+{
+	if($i==361)
+	{
+		$e=360;
+		$b=10;
+	}
+	if($i==401)
+	{
+		$e=400;
+		$b=11;
+	}
+	if($i==441)
+	{
+		$e=440;
+		$b=12;
+	}
+	if($i==481)
+	{
+		$e=480;
+		$b=13;
+	}
+	if($i==521)
+	{
+		$e=520;
+		$b=14;
+	}
+	$j=$i-$e;
+	$result = mysqli_query($con,"INSERT into seat (seat_id,seat_no,bus_id,shift) values ('$i','$j','$b','6')");
+}
+?>
