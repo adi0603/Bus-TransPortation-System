@@ -24,7 +24,7 @@
                     <li class="active"><a href="about.html">About Us</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="open.php" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="sign.php" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="login.php"  ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
             Soo simply login with your User Id and Password and if you don't have your account 
             simply click the Sign Up button below.
             </p>
-            <input type="submit" onclick="location.href='open.php'" value="Sign Up">       
+            <input type="submit" onclick="location.href='sign.php'" value="Sign Up">       
         </div>
     </body>
 </html>
