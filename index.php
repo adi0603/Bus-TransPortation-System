@@ -38,7 +38,7 @@
             Soo simply login with your User Id and Password and if you don't have your account 
             simply click the Sign Up button below.
             </p>
-            <input type="submit" onclick="location.href='sign.php'" value="Sign Up">       
+            <input type="submit" onclick="location.href='signup.php'" value="Sign Up">       
         </div>
     </body>
 </html>
